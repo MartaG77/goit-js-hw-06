@@ -12,5 +12,6 @@ const loginForm = event => {
     password: password.value,
   };
   event.currentTarget.reset();
+  console.log(objectData);
 };
 form.addEventListener("submit", loginForm);
