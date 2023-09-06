@@ -5,6 +5,10 @@ const validation = () => {
     validationInput.classList.add("invalid");
     validationInput.classList.remove("valid");
   } 
+  else if (validationInput.value.length > valueLength) {
+    validationInput.classList.add("invalid");
+    validationInput.classList.remove("valid");
+  } 
   else {
     validationInput.classList.add("valid");
     validationInput.classList.remove("invalid");
